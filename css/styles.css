@@ -14,19 +14,21 @@ body {
 }
 .container {
   display: flex;
-  max-width: 580px;
+  max-width: 700px;
   background-color: #ffffff;
-  margin-top: 6%;
-  padding: 15px;
+  margin-top:1rem;
+  padding: 5px;
   border-radius: 10px;
 }
 .first_side {
-  margin: 0.5em 0;
+  margin: 1em 0.5em;
   gap: 0.5em;
   display: grid;
+  width: 90%;
 }
 .bill {
   position: relative;
+  margin: 0 0.1rem;
 }
 .bill label {
   color: hsl(184, 14%, 56%);
@@ -35,24 +37,25 @@ body {
 }
 .bill img {
   position: absolute;
-  left: 5px;
-  top: 22px;
+  left: 7px;
+  top: 25px;
   width: 9px;
 }
 .bill input {
   text-align: end;
-  width: 100%;
+  width: 270px;
   border: none;
   border-radius: 4px;
   background-color: hsl(189, 41%, 97%);
   outline: none;
   color: hsl(183, 100%, 15%);
+  padding: 5px;
 }
 .bill input::placeholder {
   color: hsl(183, 100%, 15%);
 }
 .select_tip {
-  margin: 0.5rem 0;
+  margin: 1rem 1rem;
   gap: 0.5em;
   display: grid;
 }
@@ -68,13 +71,15 @@ body {
 .first_1 button {
   background-color: hsl(183, 100%, 15%);
   color: #ffffff;
-  font-weight: bold 20px 20px;
+  font-weight: bold 20px ;
   border: none;
   width: 70px;
   border-radius: 0.2rem;
+  padding: 2px;
 }
 .second_2 {
   display: inline-block;
+  width: 250px;
 }
 .second_2 button {
   border: none;
@@ -84,6 +89,7 @@ body {
   width: 70px;
   margin-top: 0.5rem;
   border-radius: 0.2rem;
+  padding: 2px;
 }
 .second_2 input {
   background-color: hsl(189, 41%, 97%);
@@ -101,6 +107,7 @@ body {
   gap: 0.5rem;
   display: grid;
   position: relative;
+  margin: 0 0.1rem;
 }
 .number_of_people label {
   font-size: 11px;
@@ -109,31 +116,32 @@ body {
 }
 .number_of_people input {
   text-align: end;
-  width: 100%;
+  width: 270px;
   background-color: hsl(189, 41%, 97%);
   border: none;
   border-radius: 4px;
   outline: none;
   color: hsl(183, 100%, 15%);
+  padding: 5px;
 }
 .number_of_people input::placeholder{
   color: hsl(183, 100%, 15%);
 }
 .number_of_people img {
   position: absolute;
-  left: 7px;
-  top: 30px;
+  left: 9px;
+  top: 35px;
   width: 9px;
 }
 .second_side {
   background-color: hsl(183, 100%, 15%);
-  padding: 10px;
+  padding: 15px;
   width: 270px;
-  height: 240px;
+  height: 250px;
   gap: 6rem;
   display: block;
   border-radius: 10px;
-  margin: 0.5rem 0;
+  margin: 0.5rem 1rem;
 }
 .tip_amount {
   display: flex;
